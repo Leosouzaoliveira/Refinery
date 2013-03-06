@@ -1,0 +1,30 @@
+nl:
+  refinery:
+    plugins:
+      armas:
+        title: Armas
+    armas:
+      admin:
+        armas:
+          actions:
+            create_new: Maak een nieuwe Arma
+            reorder: Wijzig de volgorde van de Armas
+            reorder_done: Klaar met het wijzingen van de volgorde van de Armas
+          records:
+            title: Armas
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Armas. Druk op 'Maak een nieuwe Arma' om de eerste aan te maken.
+          arma:
+            view_live_html: Bekijk deze arma op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze arma
+            delete: Verwijder deze arma voor eeuwig
+      armas:
+        show:
+          other: Andere Armas
+  activerecord:
+    attributes:
+      'refinery/armas/arma':
+        nome: Nome
+        modelo: Modelo
+        fabricante: Fabricante
+        especificacao: Especificacao

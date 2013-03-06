@@ -1,0 +1,30 @@
+fr:
+  refinery:
+    plugins:
+      armas:
+        title: Armas
+    armas:
+      admin:
+        armas:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Arma
+            reorder: Réordonner les Armas
+            reorder_done: Fin de réordonnancement des Armas
+          records:
+            title: Armas
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Arma. Cliquer sur "Créer un(e) nouve(au/l/lle) Arma" pour créer votre premi(er/ère) arma.'
+          arma:
+            view_live_html: Voir ce(t/tte) arma <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) arma
+            delete: Supprimer définitivement ce(t/tte) arma
+      armas:
+        show:
+          other: Autres Armas
+  activerecord:
+    attributes:
+      'refinery/armas/arma':
+        nome: Nome
+        modelo: Modelo
+        fabricante: Fabricante
+        especificacao: Especificacao

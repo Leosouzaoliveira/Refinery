@@ -1,0 +1,29 @@
+fr:
+  refinery:
+    plugins:
+      nome:strings:
+        title: Nome:Strings
+    nome:strings:
+      admin:
+        nome:strings:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Nome:String
+            reorder: Réordonner les Nome:Strings
+            reorder_done: Fin de réordonnancement des Nome:Strings
+          records:
+            title: Nome:Strings
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Nome:String. Cliquer sur "Créer un(e) nouve(au/l/lle) Nome:String" pour créer votre premi(er/ère) nome:string.'
+          nome:string:
+            view_live_html: Voir ce(t/tte) nome:string <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) nome:string
+            delete: Supprimer définitivement ce(t/tte) nome:string
+      nome:strings:
+        show:
+          other: Autres Nome:Strings
+  activerecord:
+    attributes:
+      'refinery/nome:strings/nome:string':
+        modelo: Modelo
+        fabricante: Fabricante
+        especificacao: Especificacao

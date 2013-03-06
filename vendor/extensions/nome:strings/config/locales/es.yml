@@ -1,0 +1,30 @@
+es:
+  refinery:
+    plugins:
+      nome:strings:
+        title: Nome:Strings
+#        article: masculino/femenino
+    nome:strings:
+      admin:
+        nome:strings:
+          actions:
+            create_new: Crear nuevo nome:string
+            reorder: Reordenar nome:strings
+            reorder_done: Reordenación de nome:strings completada
+          records:
+            title: Nome:Strings
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay nome:strings todavía. Pulsa en "Crear nuevo Nome:String" para crear tu primer nome:string.
+          nome:string:
+            view_live_html: Ver este nome:string como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este nome:string
+            delete: Borrar este nome:string para siempre
+      nome:strings:
+        show:
+          other: Otros nome:strings
+  activerecord:
+    attributes:
+      'refinery/nome:strings/nome:string':
+        modelo: Modelo
+        fabricante: Fabricante
+        especificacao: Especificacao

@@ -1,0 +1,29 @@
+en:
+  refinery:
+    plugins:
+      nome:strings:
+        title: Nome:Strings
+    nome:strings:
+      admin:
+        nome:strings:
+          actions:
+            create_new: Add New Nome:String
+            reorder: Reorder Nome:Strings
+            reorder_done: Done Reordering Nome:Strings
+          records:
+            title: Nome:Strings
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Nome:Strings yet. Click "Add New Nome:String" to add your first nome:string.
+          nome:string:
+            view_live_html: View this nome:string live <br/><em>(opens in a new window)</em>
+            edit: Edit this nome:string
+            delete: Remove this nome:string forever
+      nome:strings:
+        show:
+          other: Other Nome:Strings
+  activerecord:
+    attributes:
+      'refinery/nome:strings/nome:string':
+        modelo: Modelo
+        fabricante: Fabricante
+        especificacao: Especificacao

@@ -1,0 +1,31 @@
+es:
+  refinery:
+    plugins:
+      armas:
+        title: Armas
+#        article: masculino/femenino
+    armas:
+      admin:
+        armas:
+          actions:
+            create_new: Crear nuevo arma
+            reorder: Reordenar armas
+            reorder_done: Reordenación de armas completada
+          records:
+            title: Armas
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay armas todavía. Pulsa en "Crear nuevo Arma" para crear tu primer arma.
+          arma:
+            view_live_html: Ver este arma como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este arma
+            delete: Borrar este arma para siempre
+      armas:
+        show:
+          other: Otros armas
+  activerecord:
+    attributes:
+      'refinery/armas/arma':
+        nome: Nome
+        modelo: Modelo
+        fabricante: Fabricante
+        especificacao: Especificacao

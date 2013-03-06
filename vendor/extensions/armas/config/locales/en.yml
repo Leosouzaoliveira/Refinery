@@ -1,0 +1,30 @@
+en:
+  refinery:
+    plugins:
+      armas:
+        title: Armas
+    armas:
+      admin:
+        armas:
+          actions:
+            create_new: Add New Arma
+            reorder: Reorder Armas
+            reorder_done: Done Reordering Armas
+          records:
+            title: Armas
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Armas yet. Click "Add New Arma" to add your first arma.
+          arma:
+            view_live_html: View this arma live <br/><em>(opens in a new window)</em>
+            edit: Edit this arma
+            delete: Remove this arma forever
+      armas:
+        show:
+          other: Other Armas
+  activerecord:
+    attributes:
+      'refinery/armas/arma':
+        nome: Nome
+        modelo: Modelo
+        fabricante: Fabricante
+        especificacao: Especificacao

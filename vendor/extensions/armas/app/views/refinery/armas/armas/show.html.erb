@@ -1,0 +1,45 @@
+<% content_for :body_content_title do %>
+  <%= @arma.nome %>
+<% end %>
+
+<% content_for :body do %>
+  <section>
+    <h1>Nome</h1>
+    <p>
+      <%=raw @arma.nome %>
+    </p>
+  </section>
+  <section>
+    <h1>Modelo</h1>
+    <p>
+      <%=raw @arma.modelo %>
+    </p>
+  </section>
+  <section>
+    <h1>Fabricante</h1>
+    <p>
+      <%=raw @arma.fabricante %>
+    </p>
+  </section>
+  <section>
+    <h1>Especificacao</h1>
+    <p>
+      <%=raw @arma.especificacao %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :side_body do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="armas">
+      <% @armas.each do |arma| %>
+        <li>
+          <%= link_to arma.nome, refinery.armas_arma_path(arma) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %>

@@ -1,0 +1,31 @@
+zh-CN:
+  refinery:
+    plugins:
+      nome:strings:
+        title: Nome:Strings
+    nome:strings:
+      admin:
+        nome:strings:
+          actions:
+            create_new: 建立新的 Nome:String
+            reorder: 对 Nome:Strings 重新排序
+            reorder_done: 对 Nome:Strings 的重新排序结束
+          records:
+            title: Nome:Strings
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Nome:Strings yet. Click "Add New Nome:String" to add your first nome:string.
+            no_items_yet: 目前没有 Nome:Strings . 点击 "Add New Nome:String" 创建一个nome:string.
+          nome:string:
+            view_live_html: 查看 nome:string 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 nome:string
+            delete: 永久删除 nome:string
+      nome:strings:
+        show:
+          other: 其他 Nome:Strings
+  activerecord:
+    attributes:
+      'refinery/nome:strings/nome:string':
+        modelo: Modelo
+        fabricante: Fabricante
+        especificacao: Especificacao

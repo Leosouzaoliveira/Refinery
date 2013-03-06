@@ -1,0 +1,29 @@
+nb:
+  refinery:
+    plugins:
+      nome:strings:
+        title: Nome:Strings
+    nome:strings:
+      admin:
+        nome:strings:
+          actions:
+            create_new: Lag en ny Nome:String
+            reorder: Endre rekkefølgen på Nome:Strings
+            reorder_done: Ferdig å endre rekkefølgen Nome:Strings
+          records:
+            title: Nome:Strings
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Nome:Strings enda. Klikk på "Lag en ny Nome:String" for å legge til din første nome:string.
+          nome:string:
+            view_live_html: Vis hvordan denne nome:string ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne nome:string
+            delete: Fjern denne nome:string permanent
+      nome:strings:
+        show:
+          other: Andre Nome:Strings
+  activerecord:
+    attributes:
+      'refinery/nome:strings/nome:string':
+        modelo: Modelo
+        fabricante: Fabricante
+        especificacao: Especificacao

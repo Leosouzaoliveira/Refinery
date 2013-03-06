@@ -1,0 +1,25 @@
+<ul>
+  <% if ::Refinery::Nome:strings::Admin::Nome:stringsController.searchable? %>
+    <li>
+      <%= render '/refinery/admin/search', :url => refinery.nome:strings_admin_nome:strings_path %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), refinery.new_nome:strings_admin_nome:string_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? && ::Refinery::Nome:strings::Admin::Nome:stringsController.sortable? && ::Refinery::Nome:strings::Nome:string.any? %>
+  <li>
+    <%= link_to t('.reorder', :what => "Nome:Strings"),
+                 refinery.nome:strings_admin_nome:strings_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Nome:Strings"),
+                 refinery.nome:strings_admin_nome:strings_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>
